@@ -1,8 +1,8 @@
 name: Label Issues (Script Injection Example)
-on:
-  issues:
-    types:
-      - opened
+on: workflow_dispatch
+  # issues:
+  #   types:
+  #     - opened
 jobs:
   assign-label:
     runs-on: ubuntu-latest
