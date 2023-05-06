@@ -12,7 +12,7 @@ jobs:
           issue_title="${{ github.event.issue.title }}"
           if [[ "$issue_title" == *"bug"* ]]; then
             echo "Issue is about a bug!"
-            env
+            echo env
           else
           echo "Issue is not about a bug"
           fi
